@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1 >Akan Name Generator</h1>
+
+    <p>This name generator will give you random Akan names and meanings.
+        The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast with a population of around 20 million people. As a meta-ethnicity they share a lot of common traits, but there are various sub -groups related mostly to language and some cultural differences.
+        If you are curious about the Akan name tied to your birthdate. Simply enter your birth month, year and date in the form, and let the generator pick ur Akan name.
+    </p>
+
+    <img src="./images/Akan_dancer.jpg" alt="A woman Akan Akan_dancer">
+
+    <form id="form">
+
+        <label for="birthdate">Birth Date: </label>
+        <input  type="date" id="birthdate" required> <br><br>
+
+        <label>Gender:</label>
+
+        <label for="male">Male</label>   
+        <input type="radio" id="male" name="gender" value="male" required>
+        
+         <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <!----type="radio" creates a radion button.Radio buttons let the user choose only the button to its label----->
+        <br>
+
+        <button class="submitbtn" type="submit">Submit</button>
+        <button class="clearbtn" type="reset" >Clear</button> <br><br>
+
+    </form>
+
+     <section>
+            <h2>Your Akan Name</h2>
+            <p id="result">Your Akan name is </p>
+     </section>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

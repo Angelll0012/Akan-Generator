@@ -1,0 +1,47 @@
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    text-align: center;   
+}
+
+h1{
+    font-weight: bold;
+}
+
+p{
+    font-weight: lighter;
+}
+
+
+img{
+    width: 400px;
+    box-shadow: 0 4px 12px 4px black;
+}
+
+#form{
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-left: 480px;
+    margin-bottom: 10px;
+    
+}
+
+.submitbtn:hover{
+    background-color: green;
+}
+
+.clearbtn:hover{
+    background-color: red;
+}
+
+button{
+    border-radius: 5px;
+}
